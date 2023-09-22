@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eduwork</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            margin-left: 200px;
+            margin-right: 200px;
+            background-image: url(bg-edu.png);
+        }
+
+        .box {
+            width: 3%;
+            font-size: 12px;
+            color: white;
+            border-radius: 10px;
+            background-color: red;
+            text-align: center;
+            position: absolute;
+            margin-left: 9%;
+            margin-top: 1%;
+            z-index: 2;
+        }
+
+        .collapse {
+            margin-left: -180px;
+        }
+
+        .dropdown-menu {
+            background-color: #374151;
+        }
+
+        .dropdown-menu :hover {
+            background-color: #7b7c7d;
+        }
+
+        .display-5 {
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-top: 50px;
+            letter-spacing: -1px;
+            line-height: 45px;
+        }
+
+        .col-2 {
+            margin-top: 30px;
+            margin-left: -20px;
+        }
+
+        .col-10 {
+            margin-top: 35px;
+            line-height: 20px;
+        }
+
+        .gambar-org {
+            margin-top: 4%;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .paragraf {
+            background-color: white !important;
+            color: #565a5f;
+            margin-left: 3%;
+            margin-top: 30%;
+            width: 28% !important;
+            padding: 4px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: #bcbdbd 1px 1px 7px 7px;
+            position: absolute;
+            z-index: 2;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .line {
+            width: 2px;
+            background-color: rgb(61, 168, 255) !important;
+        }
+
+        .lead {
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container p-2" style="font-weight: 500;">
+            <a class="navbar-brand" href="#">
+                <img style="width: 25%;" src="logo-edu.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Kelas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-light" href="#">Privat Mentoring</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Bootcamp</a></li>
+                            <li><a class="dropdown-item text-light" href="#">Webinar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hubungi Admin</a>
+                    </li>
+            </div>
+            <div>
+                <div class="nav-item dropdown ms-auto">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Member
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-light" href="#">Account</a></li>
+                        <li><a class="dropdown-item text-light" href="#">My Class</a></li>
+                        <li><a class="dropdown-item text-light" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="hero">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h1 class="display-5">Pelatihan & <br>Penyaluran kerja.</h1>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="stepper d-flex flex-column mt-3 pe-3">
+                                <div style class="d-flex">
+                                    <div class="d-flex flex-column align-items-center me-2">
+                                        <div class="rounded-circle py-2 px-3 bg-primary text-white mb-1">1</div>
+                                        <div class="line h-100"></div>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-dark">Daftar, Get Free Class!</h6>
+                                        <p class="lead text-muted pb-2" style="font-size: 15px; font-weight: 400;">Join
+                                            komunitas belajar, dapatkan akses kelas & materi gratis</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-1 mt-1">
+                                    <div class="d-flex flex-column align-items-center me-2">
+                                        <div class="rounded-circle py-2 px-3 bg-primary text-white mb-1">2</div>
+                                        <div class="line h-100"></div>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-dark">Belajar Intensif</h6>
+                                        <p class="lead text-muted pb-2" style="font-size: 15px; font-weight: 400;">
+                                            Belajar didampingi virtual assistant & mentor expert via grup & 1-on-1 zoom
+                                            mentoring</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="d-flex flex-column align-items-center me-2">
+                                        <div class="rounded-circle py-2 px-3 bg-primary text-white mb-1">3</div>
+                                        <div class="line h-100 d-none"></div>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-dark">Penyaluran Kerja Dijamin</h6>
+                                        <p class="lead text-muted pb-2" style="font-size: 15px; font-weight: 400;">
+                                            Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="box">Free</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row" style="position: absolute; z-index: 1;">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <button class="btn btn-primary" style="width: 120%;"><b>Daftar Gratis</b></button>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <button class="btn btn-warning" style="width: 120%; margin-left: 40%;">Konsultasi
+                                Dulu</button>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <p><b>75,566</b>&nbsp;Students &&nbsp;<b>164</b>&nbsp;Mentors has joined!</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="gambar-org">
+                        <img style="width: 120%;" src="gambar-orang.png" alt="">
+                    </div>
+                    <div class="paragraf">
+                        <p><b>"Sebelumnya saya tidak punya background IT karena jurusan kimia, setelah
+                                saya
+                                belajar coding di Eduwork, Saya berhasil diterima kerja di Tokopedia sebagai
+                                Programer."</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
